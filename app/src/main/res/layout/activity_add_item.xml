@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".activities.AddItemActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/addItemActivityProfilePictureCircleImageViewId"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/add_image"
+        app:civ_border_color="@color/black"
+        app:civ_border_width="2dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/addItemActivityNameTextInputLayoutId"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addItemActivityProfilePictureCircleImageViewId"
+        android:layout_marginTop="10dp"
+        android:hint="Name"
+        app:endIconMode="clear_text">
+
+        <EditText
+            android:id="@+id/addItemActivityEnterNameEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/addItemActivityDescriptionTextInputLayoutId"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addItemActivityNameTextInputLayoutId"
+        android:layout_marginTop="5dp"
+        android:hint="Description"
+        app:endIconMode="clear_text">
+
+        <EditText
+            android:id="@+id/addItemActivityEnterDescriptionEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/addItemActivitySelectCategoryTextInputLayoutId"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addItemActivityDescriptionTextInputLayoutId"
+        android:layout_marginTop="5dp"
+        android:hint="Select category">
+
+        <AutoCompleteTextView
+            android:id="@+id/addItemActivitySelectCategoryAutoCompleteTextViewId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addItemActivityDescriptionTextInputLayoutId"
+            android:completionThreshold="1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/addItemActivityDoseHaveSizeTextViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addItemActivitySelectCategoryTextInputLayoutId"
+        android:layout_marginTop="5dp"
+        android:text="Does item have different sizes ?"
+        android:textSize="15sp" />
+
+    <CheckBox
+        android:id="@+id/addItemActivityHaveSizeCheckBoxId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addItemActivityDescriptionTextInputLayoutId"
+        android:layout_alignBaseline="@id/addItemActivityDoseHaveSizeTextViewId"
+        android:layout_toRightOf="@id/addItemActivityDoseHaveSizeTextViewId" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/addItemActivityAmountTextInputLayoutId"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addItemActivityDoseHaveSizeTextViewId"
+        android:layout_marginTop="5dp"
+        android:hint="Amount"
+        app:endIconMode="clear_text">
+
+        <EditText
+            android:id="@+id/addItemActivityEnterAmountEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:inputType="numberDecimal"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/addItemActivitySaveItemButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addItemActivityAmountTextInputLayoutId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="Save"
+        android:textSize="20sp" />
+</RelativeLayout>

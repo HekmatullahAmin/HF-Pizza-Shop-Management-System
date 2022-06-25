@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/drawable/custom_button_background.xml" value="0.11" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/drawable/custom_circle_background.xml" value="0.11" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/drawable/custom_dashed_line.xml" value="0.125" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/drawable/custom_item_added_background.xml" value="0.129" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/drawable/custom_spinner_background.xml" value="0.1245" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/drawable/ic_baseline_image_24.xml" value="0.1245" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.125" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/layout/activity_add_category.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/layout/activity_add_item.xml" value="0.22" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/layout/activity_cart.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/layout/activity_deals_and_offers.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/layout/activity_explore_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/layout/activity_favourite.xml" value="0.22" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/layout/activity_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/layout/activity_launcher.xml" value="0.22" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/layout/activity_order_history.xml" value="0.33" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/layout/activity_sign_up.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/layout/cusrom_payment_mode_bottom_sheet_dialog.xml" value="0.75" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/layout/cusrom_paymetn_mode_bottom_sheet_dialog.xml" value="0.9" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/layout/custom_add_offer_bottom_sheet_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/layout/custom_best_seller_row.xml" value="0.25" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/layout/custom_cart_item_row.xml" value="0.25" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/layout/custom_category_row.xml" value="0.25" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/layout/custom_explore_menu_category_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/layout/custom_explore_menu_item_row.xml" value="0.25" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/layout/custom_offer_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/layout/custom_order_history_row.xml" value="0.25" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/layout/custom_payment_mode_bottom_sheet_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/layout/custom_register_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/layout/custom_size_amount_bottom_sheet_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/layout/fragment_cart.xml" value="0.25" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/layout/navigation_drawer_header.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/menu/navigation_drawer_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hekma/AndroidStudioProjects/HFPIZZA/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1475" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

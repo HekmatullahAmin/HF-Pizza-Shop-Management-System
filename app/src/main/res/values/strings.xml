@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">H&amp;F PIZZA</string>
+    <string name="launcher_activity_name_text_view"><![CDATA[H&F PIZZA]]></string>
+    <string name="launcher_activity_welcome_text_view">Welcome To</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_fragment_explore_menu_text_view">Explore Menu</string>
+    <string name="home_fragment_best_sellers_text_view">Bestsellers</string>
+    <string name="cart_fragment_your_cart_is_empty_text_view">YOUR CART IS EMPTY</string>
+    <string name="cart_fragment_add_some_items_text_view">Please add some items from the menu</string>
+    <string name="cart_fragment_explore_menu_button">Explore Menu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="deals_offers"><![CDATA[Deals & Offers]]></string>
+    <string name="favourite_activity_is_empty_text_view">NO FAVOURITES SET</string>
+    <string name="favourite_activity_add_some_favourite_items_text_view">Add your favourite items from menu to see them here</string>
+    <string name="cart_fragment_select_payment_method_button">Select payment mode</string>
+    <string name="custom_payment_bottom_sheet_dialog_cash_radio_button">Cash</string>
+    <string name="custom_payment_bottom_sheet_dialog_debit_credit_radio_button">Debit Credit</string>
+    <string name="custom_payment_bottom_sheet_dialog_credit_radio_button">Credit</string>
+    <string name="custom_payment_bottom_sheet_dialog_paytm_radio_button">Paytm</string>
+    <string name="custom_payment_bottom_sheet_dialog_pay_button">Pay</string>
+    <string name="custom_order_history_row_order_number_text_view">Order No.</string>
+    <string name="custom_order_history_row_order_count_number_text_view">1</string>
+    <string name="custom_order_history_row_order_count_name_text_view">items</string>
+    <string name="custom_order_history_row_order_names_text_view">Order names</string>
+    <string name="custom_order_history_row_order_placed_text_view">Order placed on</string>
+    <string name="custom_order_history_row_order_date_text_view">13/Aug/2022</string>
+    <string name="custom_order_history_row_order_for_amount_text_view">for Amount</string>
+    <string name="custom_order_history_row_order_Amount_text_view">100.00</string>
+    <string name="custom_order_history_row_order_number_count_text_view">1</string>
+    <string name="order_history_activity_is_empty_text_view">No orders yet</string>
+    <string name="order_history_activity_order_some_items_text_view">Order some items</string>
+    <string name="custom_best_seller_row_item_name_text_view">Name</string>
+    <string name="custom_best_seller_row_item_amount_text_view">230</string>
+    <string name="custom_best_seller_row_add_item_button">Add</string>
+
+    <string-array name="ItemSizes">
+        <item>Regular</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".activities.FavouriteActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/favouriteActivityRecyclerViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/favouriteActivityEmptyFavouriteMainLinearLayoutId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/favouriteActivityCartIsEmptyTextViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/favourite_activity_is_empty_text_view"
+            android:textSize="20sp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/favouriteActivityEmptyBagImageViewId"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/favouriteActivityCartIsEmptyTextViewId"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/favourite"
+            app:civ_border_color="@color/black"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/favouriteActivityAddSomeItemsTextViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/favouriteActivityEmptyBagImageViewId"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="@string/favourite_activity_add_some_favourite_items_text_view"
+            android:textSize="10sp" />
+    </LinearLayout>
+</RelativeLayout>

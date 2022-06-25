@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/customPaymentModeBottomSheetDialogRadioGroupId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="4">
+
+            <RadioButton
+                android:id="@+id/customPaymentModeBottomSheetDialogCashRadioButtonId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/custom_payment_bottom_sheet_dialog_cash_radio_button" />
+
+            <RadioButton
+                android:id="@+id/customPaymentModeBottomSheetDialogPaytmRadioButtonId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/custom_payment_bottom_sheet_dialog_paytm_radio_button" />
+
+            <RadioButton
+                android:id="@+id/customPaymentModeBottomSheetDialogDebitCreditRadioButtonId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/custom_payment_bottom_sheet_dialog_debit_credit_radio_button" />
+
+            <RadioButton
+                android:id="@+id/customPaymentModeBottomSheetDialogCreditRadioButtonId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/custom_payment_bottom_sheet_dialog_credit_radio_button" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:id="@+id/customPaymentModeBottomSheetDialogImagesLinearLayoutId"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:src="@drawable/cash" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:src="@drawable/paytm" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:src="@drawable/debit_card" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:src="@drawable/credit_card" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/customPaymentModeBottomSheetDialogPayButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/custom_payment_bottom_sheet_dialog_pay_button" />
+</LinearLayout>

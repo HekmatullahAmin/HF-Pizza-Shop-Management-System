@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/customBestSellerRowCardViewId"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:elevation="8dp"
+    app:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:id="@+id/customBestSellerRowLinearLayoutId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/customBestSellerRowImageViewId"
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/customBestSellerRowItemAmountTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/customBestSellerRowImageViewId"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/custom_best_seller_row_item_amount_text_view"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/customBestSellerRowItemNameTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/customBestSellerRowItemAmountTextViewId"
+                android:layout_marginLeft="5dp"
+                android:text="@string/custom_best_seller_row_item_name_text_view"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/customBestSellerRowAddToCartButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/custom_best_seller_row_add_item_button" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
